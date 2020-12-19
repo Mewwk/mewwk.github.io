@@ -2,6 +2,92 @@
 <html lang= "ru">
 <head>
   <meta charset="UTF-8">
+  <style>
+  body {
+  font-family: Century Gothic, Helvetica, Sans-Serif;
+    background-color: #9cc;
+}
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+ {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+	}
+	input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+	}
+	
+	input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+	}
+	.container {
+    padding: 16px;
+    background-color: white;
+	}
+	input[type=text], input[type=email] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+	}
+	hr
+	{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+	}
+	hr
+	{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+	}
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+ {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+</style>
   <title>Site.</title>
   <link href="css/style.css" media="screen" rel="stylesheet">
    <link href="css/reset.css" media="screen" rel="stylesheet">
@@ -9,12 +95,8 @@
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/validator.js"></script>
   <body>
-  <div class="container">
+    <div class="container">
     <div class="flat-design-form">
-        <ul class="tabs">
-            <li><a class="active" href="#login" id="login-tab" name="login-tab"><span id="login_icon"></span> Login</a></li>
-            <li><a href="#register" id="register-tab" name="register-tab"><span id="signup_icon"></span> Register</a></li>
-        </ul>
   <div class="form-display show" id="login">
   <h1>Login</h1>
   <form action="" method="post" novalidate="">
@@ -60,5 +142,8 @@
     </div>
       </form>
   </div>
-</body>
-</head>
+  </div>
+  </div>
+  </body>
+  </head>
+  </html>
